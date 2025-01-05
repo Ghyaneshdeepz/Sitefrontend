@@ -154,7 +154,7 @@ function saveStudentData(usn) {
     };
 
     // Send the updated data to the server
-    fetch(`https://deep72.onrender.com/update-student/${usn}`, {
+    fetch(`https://site-server-sklh.onrender.com/update-student/${usn}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
